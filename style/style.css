@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+body{
+    font-family: Lato, 'Poppins';
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: #432330;
+    color: #fff;
+    text-shadow: 0 0 10px #636363;
+}
+
+span{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinkers{
+    50%{
+        opacity:  0;
+    }
+}
